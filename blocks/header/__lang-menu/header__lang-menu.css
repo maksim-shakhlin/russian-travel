@@ -1,0 +1,7 @@
+.header__lang-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* убираем пробельный отступ */
+  font-size: 0;
+}

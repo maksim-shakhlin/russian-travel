@@ -1,0 +1,9 @@
+.content__lead {
+  margin-bottom: 92px;
+}
+
+@media all and (max-width: 768px) {
+  .content__lead {
+    margin-bottom: calc(88px - 24 * (768px - 100vw) / 428);
+  }
+}

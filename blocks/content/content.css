@@ -1,0 +1,7 @@
+@import url(./__lead/content__lead.css);
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

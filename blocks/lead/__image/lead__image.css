@@ -1,0 +1,31 @@
+.lead__image {
+  width: 100%;
+  margin: 0 0 8px;
+  align-self: center;
+}
+
+/* картинка перестает уменьшаться, чтобы уйти в края */
+@media all and (max-width: 864px) {
+  .lead__image {
+    width: 768px;
+  }
+}
+
+/* далее везде компенсируем padding у .page */
+@media all and (max-width: 768px) {
+  .lead__image {
+    width: calc(100% + 48px);
+  }
+}
+
+@media all and (max-width: 420px) {
+  .lead__image {
+    width: calc(100% + 48px - 16 * (420px - 100vw) / 100);
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__image {
+    width: calc(100% + 32px);
+  }
+}

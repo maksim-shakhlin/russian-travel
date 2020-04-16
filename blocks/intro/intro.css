@@ -1,0 +1,11 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./__digit/intro__digit.css);
+@import url(./__digit-caption/intro__digit-caption.css);
+
+.intro {
+  width: 100%;
+  max-width: 984px;
+
+}

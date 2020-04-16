@@ -1,0 +1,36 @@
+@import url(./__header/page__header.css);
+
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+/* smooth transition */
+@media all and (max-width: 864px) {
+  .page {
+    padding: 0 calc(48px - 24 * (864px - 100vw) / 96);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .page {
+    padding: 0 24px;
+  }
+}
+
+/* smooth transition */
+@media all and (max-width: 420px) {
+  .page {
+    padding: 0 calc(24px - 8 * (420px - 100vw) / 100);
+  }
+}
+
+@media all and (max-width: 320px) {
+  .page {
+    padding: 0 16px;
+  }
+}
