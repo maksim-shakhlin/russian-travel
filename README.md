@@ -6,4 +6,4 @@
 Сайт написан на чистом html и css по методологии БЭМ.
 
 ------------
-[Посмотреть](http://example.com "Посмотреть")
+[Посмотреть](https://maksim-shakhlin.github.io/russian-travel/ "Посмотреть")
