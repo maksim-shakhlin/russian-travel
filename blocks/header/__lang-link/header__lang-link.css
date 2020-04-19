@@ -12,15 +12,7 @@
   text-underline-position: under;
 }
 
-/* для плавности */
-@media all and (max-width: 350px) {
-  .header__lang-link {
-    font-size: calc(24px - 6 * (350px - 100vw) / 30);
-    line-height: calc(117% + 16 * (350px - 100vw) / 30);
-  }
-}
-
-@media all and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 1.33;

@@ -3,18 +3,4 @@
   line-height: 1.62;
   font-weight: normal;
   margin: 0 0 32px;
-  max-width: 690px;
-}
-
-/* smooth transition */
-@media all and (max-width: 820px) {
-  .intro__text {
-    max-width: calc(690px + 30 * (820px - 100vw) / 100);
-  }
-}
-
-@media all and (max-width: 720px) {
-  .intro__text {
-    max-width: 720px;
-  }
 }

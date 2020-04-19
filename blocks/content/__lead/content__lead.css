@@ -1,9 +1,17 @@
 .content__lead {
-  margin-bottom: 92px;
+  margin: 0 auto;
+  max-width: 984px;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .content__lead {
-    margin-bottom: calc(88px - 24 * (768px - 100vw) / 428);
+    max-width: 100%;
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__lead {
+    margin: 0;
   }
 }

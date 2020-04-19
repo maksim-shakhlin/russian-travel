@@ -5,15 +5,7 @@
   background-size: contain;
 }
 
-/* для плавности */
-@media all and (max-width: 350px) {
-  .header__logo {
-    width: calc(176px - 34 * (350px - 100vw) / 30);
-    height: calc(52px - 10 * (350px - 100vw) / 30);
-  }
-}
-
-@media all and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .header__logo {
     width: 142px;
     height: 42px;

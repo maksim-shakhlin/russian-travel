@@ -3,17 +3,20 @@
   line-height: 1.04;
   font-weight: 900;
   margin: 0 0 40px;
+  max-width: 690px;
 }
 
-/* smooth transition */
-@media all and (max-width: 768px) {
+
+/* smooth text size transition */
+@media screen and (max-width: 768px) {
   .intro__title {
-    font-size: calc(54px - 22 * (768px - 100vw) / 428);
-    line-height: calc(104% + 5 * (768px - 100vw) / 428);
+    font-size: calc(54px - 22 * (768px - 100vw) / 393);
+    line-height: calc(104% + 5 * (768px - 100vw) / 393);
+    max-width: 100%;
   }
 }
 
-@media all and (max-width: 3208px) {
+@media screen and (max-width: 375px) {
   .intro__title {
     font-size: 32px;
     line-height: 1.09;

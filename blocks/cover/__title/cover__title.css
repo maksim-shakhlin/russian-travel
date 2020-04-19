@@ -1,0 +1,27 @@
+.cover__title {
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 32px;
+  max-width: 560px;
+  color: #fffdfd
+}
+
+/* smooth text size transition */
+@media screen and (max-width: 668px) {
+  .cover__title {
+    font-size: calc(72px - 40 * (668px - 100vw) / 293);
+    line-height: calc(106% + 3 * (668px - 100vw) / 293);
+    margin-bottom: calc(32px - 16 * (668px - 100vw) / 293);
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin-bottom: 16px;
+  }
+}

@@ -4,5 +4,16 @@
   font-weight: normal;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead__caption {
+    margin: 0 16px 0;
+  }
 }

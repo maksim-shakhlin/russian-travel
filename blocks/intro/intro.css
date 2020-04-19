@@ -5,7 +5,11 @@
 @import url(./__digit-caption/intro__digit-caption.css);
 
 .intro {
-  width: 100%;
-  max-width: 984px;
+  max-width: 690px;
+}
 
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 100%;
+  }
 }

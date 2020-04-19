@@ -1,7 +1,23 @@
 @import url(./__lead/content__lead.css);
+@import url(./__intro/content__intro.css);
+@import url(./__photo-grid/content__photo-grid.css);
+@import url(./__places/content__places.css);
+@import url(./__cover/content__cover.css);
 
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content {
+    row-gap: 64px;
+  }
 }

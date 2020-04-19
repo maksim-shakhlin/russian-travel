@@ -1,0 +1,31 @@
+.cover__overlay {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-bottom: 62.5%;
+  background: url(../../../images/cover/cover__background.jpg) center center;
+  background-size: cover;
+  color: white;
+  z-index: 0;
+}
+
+.cover__overlay:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2a2c2f;
+  opacity: .3;
+  z-index: -1;
+  transition: opacity 1s ease-out;
+}
+
+.cover__overlay:hover:before {
+  opacity: .8;
+  /* разная анимация при наведении и отведении */
+  transition: opacity .2s ease;
+}
+
+

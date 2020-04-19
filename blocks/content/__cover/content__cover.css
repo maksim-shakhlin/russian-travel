@@ -1,0 +1,10 @@
+.content__cover {
+  max-width: 100%;
+  margin: 0 48px;
+}
+
+@media screen and (max-width: 1080px) {
+  .content__cover {
+    margin: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.content__intro {
+  justify-self: start;
+  margin-left: calc((100% - 984px) / 2);
+}
+
+@media screen and (max-width: 1080px) {
+  .content__intro {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__intro {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content__intro {
+    margin: 0 16px;
+  }
+}
