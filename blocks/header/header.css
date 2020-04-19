@@ -1,7 +1,6 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-menu/header__lang-menu.css);
 @import url(./__lang-menu-item/header__lang-menu-item.css);
-@import url(./__lang-menu-item/_checked/header__lang-menu-item_checked.css);
 @import url(./__lang-link/header__lang-link.css);
 
 .header {
@@ -10,4 +9,3 @@
   justify-content: space-between;
   align-items: flex-end;
 }
-

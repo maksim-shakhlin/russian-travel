@@ -1,14 +1,11 @@
+@import url(./_active/header__lang-link_active.css);
+@import url(./_ckecked/header__lang-link_checked.css);
+
 .header__lang-link {
   font-size: 24px;
   line-height: 1.17;
   font-weight: normal;
   color: inherit;
-  text-decoration: none;
-}
-
-/* Комментарий в файле header__lang-menu-item_checked.css */
-.header__lang-menu-item_checked > .header__lang-link {
-  text-decoration: underline;
   text-underline-position: under;
 }
 

@@ -3,6 +3,7 @@
   margin-left: calc((100% - 984px) / 2);
 }
 
+/* 984 + 48 *2 = 1080 */
 @media screen and (max-width: 1080px) {
   .content__intro {
     margin: 0 48px;

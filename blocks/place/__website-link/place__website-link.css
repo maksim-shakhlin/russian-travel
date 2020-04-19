@@ -4,9 +4,9 @@
   font-weight: normal;
   color: inherit;
   text-underline-position: under;
-  transition: opacity .1s ease;
+  transition: opacity 0.1s ease;
 }
 
 .place__website-link:hover {
-  opacity: .8;
+  opacity: 0.8;
 }

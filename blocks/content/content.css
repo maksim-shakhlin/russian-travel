@@ -7,12 +7,12 @@
 .content {
   display: grid;
   grid-template-columns: 100%;
-  row-gap: 92px;
+  row-gap: 97px;
 }
 
 @media screen and (max-width: 768px) {
   .content {
-    row-gap: 88px;
+    row-gap: 91px;
   }
 }
 

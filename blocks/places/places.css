@@ -1,6 +1,12 @@
 .places {
   display: grid;
-  gap: 80px;
+  gap: 89px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    gap: 90px;
+  }
 }
 
 @media screen and (max-width: 768px) {

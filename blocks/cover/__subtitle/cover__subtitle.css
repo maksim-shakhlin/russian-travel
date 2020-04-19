@@ -7,7 +7,6 @@
   margin: 0;
 }
 
-
 /* smooth text size transition */
 @media screen and (max-width: 668px) {
   .cover__subtitle {

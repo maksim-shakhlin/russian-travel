@@ -10,22 +10,20 @@
 }
 
 .cover__overlay:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   background-color: #2a2c2f;
-  opacity: .3;
+  opacity: 0.3;
   z-index: -1;
   transition: opacity 1s ease-out;
 }
 
 .cover__overlay:hover:before {
-  opacity: .8;
+  opacity: 0.8;
   /* разная анимация при наведении и отведении */
-  transition: opacity .2s ease;
+  transition: opacity 0.2s ease;
 }
-
-
