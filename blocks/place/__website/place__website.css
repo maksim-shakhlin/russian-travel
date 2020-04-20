@@ -3,17 +3,6 @@
   align-self: end;
 }
 
-.place__website:before {
-  content: "URL";
-  display: block;
-  margin-bottom: 7px;
-  font-size: 12px;
-  line-height: 1.7;
-  font-weight: normal;
-  letter-spacing: 0.2em;
-  color: #aaa;
-}
-
 @media screen and (max-width: 768px) {
   .place__website {
     margin-bottom: 3px;

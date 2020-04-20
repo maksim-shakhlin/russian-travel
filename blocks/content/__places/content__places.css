@@ -3,7 +3,8 @@
   max-width: 984px;
 }
 
-@media screen and (max-width: 1024px) {
+/* 984 + 48 *2 = 1080 */
+@media screen and (max-width: 1080px) {
   .content__places {
     max-width: 100%;
     margin: 0 48px;

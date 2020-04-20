@@ -1,12 +1,15 @@
-@import url(./_active/header__lang-link_active.css);
-@import url(./_ckecked/header__lang-link_checked.css);
+@import url(./_enabled/header__lang-link_enabled.css);
 
 .header__lang-link {
   font-size: 24px;
   line-height: 1.17;
   font-weight: normal;
   color: inherit;
-  text-underline-position: under;
+  text-decoration: none;
+  /* используем некраткую запись,
+  чтобы не пересекалось с модификатором */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
 
 @media screen and (max-width: 375px) {

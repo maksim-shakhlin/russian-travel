@@ -1,5 +1,6 @@
 @import url(./__title/place__title.css);
 @import url(./__website/place__website.css);
+@import url(./__website-caption/place__website-caption.css);
 @import url(./__website-link/place__website-link.css);
 @import url(./__image/place__image.css);
 @import url(./__text/place__text.css);
