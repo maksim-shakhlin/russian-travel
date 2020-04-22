@@ -1,0 +1,6 @@
+@import url(./__image/logo__image.css);
+
+.logo {
+  /* убираем пробельный отступ */
+  font-size: 0;
+}

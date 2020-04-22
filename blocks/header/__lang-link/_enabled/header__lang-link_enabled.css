@@ -1,8 +1,0 @@
-.header__lang-link_enabled {
-  transition: opacity 0.1s ease;
-  border-color: rgba(0, 0, 0, 0);
-}
-
-.header__lang-link_enabled:hover {
-  opacity: 0.8;
-}
